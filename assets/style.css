@@ -1,0 +1,63 @@
+.subject-label:not(:first-child) {
+   display: inline-block;
+   margin-top: 1.5rem;
+}
+
+.topic-badge {
+   min-width: 30px;
+}
+
+.completed-badge {
+   min-width: 30px;
+}
+
+.item-badge {
+   min-width: 40px;
+}
+
+.topic-title {
+   cursor: pointer;
+}
+
+.topic-title:hover {
+   text-decoration: underline;
+}
+
+.completed {
+   float: right;
+   margin: 0px auto;
+}
+
+.completedContainer {
+   float: right;
+   position: relative;
+   left: 20px;
+}
+
+.incompleteContainer{
+   float: left;
+}
+
+.completedTitle {
+   color: green;
+}
+
+.card-body hr:last-of-type {
+   display: none;
+}
+
+hr {
+   width: 108%;
+}
+
+
+@keyframes floatup {
+   0% {
+      transform: translatey(0px);
+      opacity: 1;
+   }
+   100% {
+      transform: translatey(-20px);
+      opacity: 0;
+   }
+}
